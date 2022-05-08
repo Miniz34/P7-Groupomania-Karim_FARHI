@@ -1,18 +1,22 @@
 <template>
+
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <section class="d-flex flex-column main-form w-50 align-center main-form">
+      <input class="form-control form-control-lg" type="text" placeholder="Username"
+        aria-label=".form-control-lg example">
+      <input class="form-control form-control-lg" type="text" placeholder="Password"
+        aria-label=".form-control-lg example">
+    </section>
   </div>
+
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld
+
   }
 }
+
 </script>
